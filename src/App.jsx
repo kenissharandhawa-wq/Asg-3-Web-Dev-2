@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import AddStudentForm from './components/AddStudentForm';
-import StudentTable from './components/StudentTable';
-import './components/style.css';
+import Header from './Components/Header';
+import AddStudentForm from './Components/AddStudentForm';
+import StudentTable from './Components/StudentTable';
+import './Components/style.css';
 
 const initialStudents = [
   { id: 1, name: 'Aman', score: 78 },
